@@ -12,7 +12,6 @@ for name in os.listdir(weight_uvr5_root):
     if name.endswith(".pth") or name.endswith(".ckpt") or "onnx" in name:
         uvr5_names.append(name.replace(".pth", "").replace(".ckpt", ""))
 
-
 def clean_path(path_str:str):
     if path_str.endswith(('\\','/')):
         return clean_path(path_str[0:-1])
