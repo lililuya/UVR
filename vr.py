@@ -13,7 +13,6 @@ from lib.lib_v5.model_param_init import ModelParameters
 from lib.lib_v5.nets_new import CascadedNet
 from lib.utils import inference
 
-
 class AudioPre:
     def __init__(self, agg, model_path, device, is_half, tta=False):
         self.model_path = model_path
