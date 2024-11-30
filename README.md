@@ -7,3 +7,5 @@ split vocal and instrument
 
 ## 2.use the function `test_uvr5.py`
 > need modify the input parameters
+
+## 3.目前这个结果分离得到的背景音存在很大的噪声
